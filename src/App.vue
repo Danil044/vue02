@@ -4,7 +4,9 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/portfolio">Portfolio</router-link> |
     <router-link to="/store">Store</router-link> |
-    <router-link to="/axios">Axios</router-link>
+    <router-link to="/axios">Axios</router-link> |
+    <router-link to="/register">Register</router-link> |
+    <router-link to="/novaposhta">Nova Poshta</router-link>
   </nav>
   <router-view/>
 </template>

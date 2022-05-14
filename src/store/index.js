@@ -3,6 +3,9 @@ import myFirstValues from '@/store/modeles/myFirstValues'
 import toasts from '@/store/Toasts'
 import Logs from '@/store/Logs'
 import songLyrics from '@/store/modeles/songLyrics'
+import myArray from '@/store/modeles/MyArray'
+import auth from '@/store/modeles/auth'
+import NovaPoshta from '@/store/modeles/NovaPoshta'
 
 export default createStore({
   strict: true,
@@ -19,6 +22,9 @@ export default createStore({
     myFirstValues,
     toasts,
     Logs,
-    songLyrics
+    songLyrics,
+    myArray,
+    auth,
+    NovaPoshta
   }
 })

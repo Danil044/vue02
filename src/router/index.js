@@ -30,6 +30,18 @@ const routes = [
     name: 'axios',
 
     component: () => import(/* webpackChunkName: "about" */ '../views/AxiosView')
+  },
+  {
+    path: '/register',
+    name: 'register',
+
+    component: () => import(/* webpackChunkName: "about" */ '../views/RegisterView')
+  },
+  {
+    path: '/novaposhta',
+    name: 'novaposhta',
+
+    component: () => import(/* webpackChunkName: "about" */ '../views/NovaPoshtaView')
   }
 ]
 
