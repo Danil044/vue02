@@ -25,7 +25,6 @@
         <button class="btn btn-primary" :disabled="isNovaPoshtaLoading" @click="getWarehouses">load</button>
       </span>
     </div>
-
   </div>
   <div v-if="isNovaPoshtaLoading" class="spinner-border" role="status"></div>
 </template>
