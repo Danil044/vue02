@@ -42,6 +42,7 @@ export default {
   setup () {
     const store = useStore()
     return {
+
       novaPoshtaAreas: computed(() => store.getters.getNovaPoshtaAreas),
       novaPoshtaCities: computed(() => store.getters.getNovaPoshtaCities),
       novaPoshtaWarehouses: computed(() => store.getters.getNovaPoshtaWarehouses),
