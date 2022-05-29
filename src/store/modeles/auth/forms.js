@@ -88,6 +88,7 @@ export default {
         .then(res => res.json())
         .then(json => {
           console.log(json)
+          dispatch('toastSuccess', ' user Create')
         })
         .catch(err => {
           dispatch('errorLogAjax', err)
@@ -118,6 +119,8 @@ export default {
         .then(json => {
           console.log(json)
           dispatch('toastSuccess', ' JWT Ready ')
+          commit('JwtToken', json.token)
+          commit('user', json.user)
           // TODO  уйти на другой маршрут, сообщить что все хорошо
         })
         .catch(err => {

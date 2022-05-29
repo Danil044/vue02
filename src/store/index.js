@@ -6,6 +6,8 @@ import songLyrics from '@/store/modeles/songLyrics'
 import myArray from '@/store/modeles/MyArray'
 import auth from '@/store/modeles/auth'
 import NovaPoshta from '@/store/modeles/NovaPoshta'
+import portfolio from '@/store/modeles/portfolio'
+import profile from '@/store/modeles/profile'
 
 export default createStore({
   strict: true,
@@ -25,6 +27,8 @@ export default createStore({
     songLyrics,
     myArray,
     auth,
-    NovaPoshta
+    NovaPoshta,
+    portfolio,
+    profile
   }
 })

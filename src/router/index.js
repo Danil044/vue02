@@ -6,6 +6,10 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+
+    // path: '/emailValidate',
+    // name: 'emailValidate',
+    // component: () => import(/* webpackChunkName: "about" */ '../components/auth/MyEmailVerify')
   },
   {
     path: '/portfolio',

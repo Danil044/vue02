@@ -1,20 +1,15 @@
 <template>
-  <router-link to="/portfolio">Portfolio</router-link>
-
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+ <MyProfile></MyProfile>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MyProfile from '@/components/auth/MyProfile'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    MyProfile
   }
 }
 </script>
